@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+#block1 {
+    text-align: center;
+}
+
+#happyText{
+    padding-top: 60px;
+    margin-bottom: 20px;
+    font-size: 16vw;
+    font-family: Bebas Neue, Arial, Helvetica;
+    font-weight: bold;
+    transform: scale(1,1.25);
+}
+
+.alignButton {
+    padding-top: 10px;
+    text-align:center;
+    margin-bottom: 900px;
+    height: auto;
+}
+
+
+audio{
+    height: 300px;
+    padding-top: 60px;
+    display: table;
+    margin: 0 auto;
+}
+
+#block2 {
+    height: 900px;
+    font-family: Calibri, Arial;
+    font-size: 11pt;
+    text-align: justify;
+    margin: 10%;
+}
+
+#border{
+    border-style: solid;
+    border-width: 4px;
+}
+
+#content{
+    padding:120px;
+    padding-top: 60px;
+}
+
+#picTitle {
+    font-size: 50pt;
+    font-family: Bebas Neue, Calibri;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*
+Title: How TO - Responsive Image Grid
+Author: w3schools
+Website: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width:100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+#signature{
+    padding-top: 10%;
+    margin: 10pt;
+    text-align: center;
+    font-size:3vw;
+    font-family: Helvetica, Calibri;
+}
+
+#signature1{
+    margin-bottom: 0px;
+}
+
+#signature2{
+    margin-top: 5px;
+}
